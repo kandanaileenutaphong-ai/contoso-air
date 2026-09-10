@@ -25,10 +25,10 @@ spec:
           resources:
             requests:
               cpu: "10m"
-              memory: "128Mi"
+              memory: "256Mi"
             limits:
               cpu: "1"
-              memory: "256Mi"
+              memory: "512Mi"
           envFrom:
             - configMapRef:
                 name: contoso-air-kandanai-config
